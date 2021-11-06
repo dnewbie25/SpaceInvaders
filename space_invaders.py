@@ -99,7 +99,6 @@ def game_over_text(x, y):
 
 # game loop
 game_active = True 
-# side = "right"
 while game_active:
     GAME_SCREEN.blit(background_image, (0,0))
     for event in pygame.event.get():
